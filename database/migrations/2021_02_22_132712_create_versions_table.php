@@ -84,7 +84,7 @@ class CreateVersionsTable extends Migration
            $table->boolean('ecranTactile');
          $table->boolean('instrumentationBordDigitale');
          $table->boolean('reconnaissancePanneaux');
-          $table->boolean('affichageTêteHaute');
+          $table->boolean('affichageTeteHaute');
            $table->string('aideStationnement');
          $table->boolean('cameraRecul');
          $table->boolean('parkAssistAuto');

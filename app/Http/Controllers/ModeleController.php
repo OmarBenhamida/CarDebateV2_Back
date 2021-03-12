@@ -27,4 +27,19 @@ class ModeleController extends SuperController
 
         return $list;
     }
+
+    public function getByMarque(int $id) // : Collection
+    {
+        $list = $this->_context
+            ->where('idmarque', $id)
+          
+            ->get()
+            ;
+
+        
+
+        return $list;
+    }
+
+
 }

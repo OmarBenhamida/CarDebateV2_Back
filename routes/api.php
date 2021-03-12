@@ -47,6 +47,8 @@ Route::apiResource('commantaires', CommantaireController::class);
 Route::get('/marques/getAll', [MarqueController::class, 'getAll']);
 Route::apiResource('marques', MarqueController::class);
 
+
+Route::get('/modeles/getByMarque/{id}', [ModeleController::class, 'getByMarque']);
 Route::get('/modeles/getAll', [ModeleController::class, 'getAll']);
 Route::apiResource('modeles', ModeleController::class);
 
@@ -58,6 +60,7 @@ Route::post('/utilisateurs/login', [UtilisateurController::class, 'login']);
 Route::get('/utilisateurs/getAll', [UtilisateurController::class, 'getAll']);
 Route::apiResource('utilisateurs', UtilisateurController::class);
 
+Route::get('/versions/getByModel/{id}', [VersionController::class, 'getByModel']);
 Route::get('/versions/getAll', [VersionController::class, 'getAll']);
 Route::apiResource('versions', VersionController::class);
 

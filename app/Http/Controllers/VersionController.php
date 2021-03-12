@@ -26,4 +26,19 @@ class VersionController extends SuperController
 
         return $list;
     }
+
+
+    public function getByModel(int $id) // : Collection
+    {
+        $list = $this->_context
+            ->where('idmodel', $id)
+          
+            ->get()
+            ;
+
+        
+
+        return $list;
+    }
+
 }

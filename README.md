@@ -7,6 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+https://github.com/OmarBenhamida/CarDebateV2_Back
+
+git config --global user.name "OmarBenhamida"
+
+git config --global user.email "omar.benhamida@outlook.com"
+git init
+git remote add origin https://github.com/OmarBenhamida/CarDebateV2_Back.git
+git add .
+git commit -m "first"
+git push
+
+git clone https://github.com/OmarBenhamida/CarDebateV2_Back.git
+
+Talismane.1997
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
